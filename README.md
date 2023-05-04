@@ -5,7 +5,7 @@ Issue TLS certificates from a Vault cluster. The return value can be set in a [`
 For logging into Vault, you need a valid `roleId` and `secretId` with a policy able to read/write into your pki engine/role.
 
 ```javascript
-import getCertificate from 'vault-pki-fetcher'
+const getCertificate = require('vault-pki-fetcher')
 
 const options = {
   roleId: 'xxxx',

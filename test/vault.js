@@ -1,9 +1,9 @@
 'use strict'
 
-import { test } from 'node:test'
-import assert from 'node:assert'
-import { MockAgent, getGlobalDispatcher, setGlobalDispatcher } from 'undici'
-import { approleLogin, issueCertificate } from '../lib/vault.js'
+const { test } = require('node:test')
+const assert = require('node:assert')
+const { MockAgent, getGlobalDispatcher, setGlobalDispatcher } = require('undici')
+const { approleLogin, issueCertificate } = require('../lib/vault')
 test('should login to vault cluster with AppRole method', async (t) => {
   const _agent = getGlobalDispatcher()
   t.after(() => {

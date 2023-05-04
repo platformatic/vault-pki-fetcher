@@ -1,4 +1,4 @@
 'use strict'
 
-import { getCertificate } from './lib/get-certificate.js'
-export default getCertificate
+const { getCertificate } = require('./lib/get-certificate.js')
+module.exports = getCertificate
