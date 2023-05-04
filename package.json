@@ -1,0 +1,23 @@
+{
+  "name": "vault-pki-fetcher",
+  "description": "Issue TLS certificates from a Vault cluster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "standard | snazzy && node --test test/*.js"
+  },
+  "keywords": [],
+  "author": "Leonardo Rossi <leonardo.rossi@gmail.com>",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "undici": "^5.22.0"
+  }
+}
