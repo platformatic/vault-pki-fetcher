@@ -1,7 +1,7 @@
 {
   "name": "vault-pki-fetcher",
   "description": "Issue TLS certificates from a Vault cluster",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "directories": {
     "lib": "lib"
